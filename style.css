@@ -1,0 +1,100 @@
+/* ==============================================*/
+/*General styles ========================================*/
+
+body {
+    font-family: arial, sans-serif
+}
+
+button {
+    text-transform: uppercase;
+    /*    padding: .5em 1em;*/
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+/* ==============================================*/
+/*App styles ========================================*/
+
+.app {
+    border: 1px solid #ccc;
+}
+
+.start,
+.reset {
+    font-size: 11px;
+    padding: 1em 2em;
+    font-weight: bold;
+    border-radius: 3px
+}
+
+.start {
+    background-color: #1b66c9;
+    color: #fff;
+
+}
+
+.reset {
+    color: #1b66c9;
+    border: .1px solid #ddd;
+}
+
+
+/* ==============================================*/
+/* Toggle Buttons styles ========================================*/
+
+.toggle {
+    display: flex;
+    /*    border: 2px solid yellow;*/
+    border-bottom: 1px solid #eee;
+}
+
+.toggle > * {
+    flex: 1;
+    /*    width: 100%;*/
+    /*    border: 1px solid red*/
+}
+
+.toggle button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4em;
+    background: none;
+    font-size: .75rem;
+    padding: 1.2em
+}
+
+.toggle img {
+    width: 1.5em;
+/*    margin-right: 1em;*/
+}
+
+/* ==============================================*/
+/* Timer styles ========================================*/
+
+.timer-wrapper {
+    padding: 1rem;
+}
+
+.timer-wrapper h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    
+}
+
+.minutes, .seconds {
+    font-size: 2rem;
+    padding: .1em;
+}
+/* ==============================================*/
+/*General styles ========================================*/
+
+
+
+
+/* ==============================================*/
+/*General styles ========================================*/
